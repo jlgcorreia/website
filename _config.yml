@@ -19,18 +19,18 @@ timezone: Europe/Lisbon
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Naza Hoops                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Eleve seu jogo com nossos treinos personalizados e dicas de basquetebol.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Um blog de basquetebol com treinos personalizados e dicas para atletas melhorarem seu desempenho. Planos de treino adaptados a diferentes posições e níveis de habilidade. Recurso valioso para jogadores e treinadores de todos os níveis.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
 github:
-  username: github_username             # change to your github username
+  username: jlgcorreia             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -38,12 +38,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com             # change to your email address
+  name: José Luís Gonçalves Correia
+  email: equipa.jc@gmail.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    # - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/jlgcorreia      # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
