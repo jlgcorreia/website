@@ -8,7 +8,7 @@ order: 4
 {: .prompt-tip } -->
 <!-- # Sobre o autor -->
 
-![Imagem do autor](https://via.placeholder.com/150)
+![Imagem do autor](/assets/img/profile_pic.jpg)
 
 Meu nome é José Correia e eu sou um treinador de basquete. Desde muito jovem, o basquete tem sido uma paixão para mim e agora eu dedico meu tempo a ensinar outros a jogar e a melhorar suas habilidades.
 
@@ -25,6 +25,6 @@ Meu nome é José Correia e eu sou um treinador de basquete. Desde muito jovem, 
 
 ## Contato
 
-- Email: equipa.jc@gmail.com 
-- Twitter: [@](https://twitter.com/)
-- Instagram: [@](https://www.instagram.com//)
+- Email: [equipa.jc@gmail.com](mailto:equipa.jc@gmail.com) 
+- Twitter: [@jlgcorreia](https://twitter.com/jlgcorreia)
+- Instagram: [@equipajc](https://www.instagram.com/equipajc)

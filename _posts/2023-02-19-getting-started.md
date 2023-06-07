@@ -2,6 +2,7 @@
 title: Bem-vindo ao nosso blog!
 date: 2023-02-19 06:55:00 +0800
 pin: true
+# categories: [Blogging]
 ---
 
 É com grande satisfação que damos as boas-vindas a todos os nossos leitores, jogadores e treinadores de basquetebol, ao nosso blog desportivo dedicado ao mundo do basquetebol.
