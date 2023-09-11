@@ -4,30 +4,44 @@
 
 <div id="sidebar" class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center align-items-center">
   <div class="text-center">
-    {% assign avatar_number = 1 %}
-
-    {% while site["avatar_#{avatar_number}"] != nil %}
-    <div id="avatar_{{ avatar_number }}" class="avatar">
+    <div id="avatar" class="avatar">
       <a href="{{ '/' | relative_url }}" class="mx-auto">
-        {% capture avatar_url %}
-        {% if site["avatar_#{avatar_number}"] contains '://' %}
-        {{ site["avatar_#{avatar_number}"] }}
-        {% elsif site.img_cdn != empty and site.img_cdn %}
-        {{ site["avatar_#{avatar_number}"] | prepend: site.img_cdn }}
-        {% else %}
-        {{ site["avatar_#{avatar_number}"] | relative_url }}
+        {% if site.avatar != empty and site.avatar %}
+          {% capture avatar_url %}
+            {% if site.avatar contains '://' %}
+              {{ site.avatar }}
+            {% elsif site.img_cdn != empty and site.img_cdn %}
+              {{ site.avatar | prepend: site.img_cdn }}
+            {% else %}
+              {{ site.avatar | relative_url }}
+            {% endif %}
+          {% endcapture %}
+          <img src="{{ avatar_url | strip }}" alt="avatar" onerror="this.style.display='none'">
         {% endif %}
-        {% endcapture %}
-        <img src="{{ avatar_url | strip }}" alt="avatar_{{ avatar_number }}" onerror="this.style.display='none'">
       </a>
     </div>
-    {% assign avatar_number = avatar_number | plus: 1 %}
-    {% endwhile %}
-
-    <div class="site-title">
-      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    
+    <div id="avatar_2" class="avatar">
+      <a href="{{ '/' | relative_url }}" class="mx-auto">
+        {% if site.avatar_2 != empty and site.avatar_2 %}
+          {% capture avatar_2_url %}
+            {% if site.avatar_2 contains '://' %}
+              {{ site.avatar_2 }}
+            {% elsif site.img_cdn != empty and site.img_cdn %}
+              {{ site.avatar_2 | prepend: site.img_cdn }}
+            {% else %}
+              {{ site.avatar_2 | relative_url }}
+            {% endif %}
+          {% endcapture %}
+          <img src="{{ avatar_2_url | strip }}" alt="avatar_2" onerror="this.style.display='none'">
+        {% endif %}
+      </a>
     </div>
-    <div class="site-subtitle font-italic">{{ site.tagline }}</div>
+
+    <!-- <div class="site-title">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </div> -->
+    <!-- <div class="site-subtitle font-italic">{{ site.tagline }}</div> -->
 
   </div><!-- .profile-wrapper -->
 
