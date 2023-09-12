@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   Um blog de basquetebol com treinos personalizados e dicas para atletas melhorarem seu desempenho. Planos de treino adaptados a diferentes posições e níveis de habilidade. Recurso valioso para jogadores e treinadores de todos os níveis.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://www.nazahoops.pt'
 
 github:
   username: jlgcorreia             # change to your github username
